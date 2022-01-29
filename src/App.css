@@ -1,0 +1,35 @@
+body{
+  background-color: #242B2E;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon{
+  font-size: 35px;
+  color: #000000;
+}
+
+.fcColor{
+  color:#FF9F4A
+}
+
+.footer{
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+  right: 0px;
+  color: #FF9F4A;
+  text-align: center;
+}
